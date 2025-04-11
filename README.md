@@ -21,6 +21,7 @@ source venv/bin/activate
 pip install -e .
 
 ``` 
+![alt text](recommendation.png)
 
 
 ## use 
@@ -45,7 +46,7 @@ dvc status
 
 dvc push
 dvc pull
-
+ 
 
 
 

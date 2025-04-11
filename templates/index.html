@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>HYBRID ANIME RECOMMNDER SYSTEM</title>
+    
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Welcome to our ANIME RECOMMENDER SYSTEM</h1>
+        <form action="/" method="POST">
+            <label for="userID">Enter your User ID : </label>
+            <input type="number" id="userID" name="userID" required>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        {% if recommendations %}
+        <div class="results-container">
+            <h2>Your Anime Recommendations are ::-- </h2>
+            <ul>
+                {% for anime in recommendations %}
+                <li>{{ anime }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        {% endif %}
+    </div>
+    
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hybrid Anime Recommender System</title>
+    <link rel="stylesheet" href="/static/style.css" />
+
+    <!-- You can add Google Fonts or a CSS Framework like Tailwind or Bootstrap if needed -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Anime Recommender System</h1>
+            <p class="tagline">Discover Your Next Favorite Anime</p>
+        </header>
+
+        <main class="main-content">
+            <section class="form-section">
+                <form action="/" method="POST" class="recommendation-form">
+                    <label for="userID">Enter Your User ID</label>
+                    <input type="number" id="userID" name="userID" required placeholder="e.g., 101" />
+                    <button type="submit" class="submit-button">Get Recommendations</button>
+                </form>
+            </section>
+
+            {% if recommendations %}
+            <section class="results-section">
+                <h2>Your Recommended Anime</h2>
+                <ul class="recommendation-list">
+                    {% for anime in recommendations %}
+                    <li>{{ anime }}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
+        </main>
+
+        <footer class="footer">
+            <p>&copy; {{ year or "2025" }} Anime Recommender. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
