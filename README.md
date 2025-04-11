@@ -38,9 +38,13 @@ dvc add artifacts/model
 dvc add artifacts/model_checkpoint/
 dvc add artifacts/weights/
 
+## add to GCP Bucket 
+dvc remote add -d myremote gs://my-dvc-bucket-9999
 
+dvc status 
 
-
+dvc push
+dvc pull
 
 
 
