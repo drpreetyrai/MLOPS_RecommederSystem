@@ -1,0 +1,32 @@
+2025-04-10 16:53:40,229 - INFO - Succesfully read the YAML file
+2025-04-10 16:53:40,229 - INFO - Data Ingestion Started....
+2025-04-10 16:53:40,229 - INFO - Starting Data Ingestion Process....
+2025-04-10 16:53:43,233 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-10 16:53:47,204 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-10 16:53:49,255 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-04-10 16:53:49,256 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-10 16:53:49,256 - ERROR - Error while downloading data from GCP
+2025-04-10 16:53:49,256 - ERROR - CustomException : Error in /Users/preetyrai/RecommendationProject/src/data_ingestion.py , line 24 : Failed to download data
+2025-04-10 16:53:49,256 - INFO - Data Ingestion DONE...
+2025-04-10 16:54:55,241 - INFO - Succesfully read the YAML file
+2025-04-10 16:54:55,241 - INFO - Data Ingestion Started....
+2025-04-10 16:54:55,241 - INFO - Starting Data Ingestion Process....
+2025-04-10 16:54:58,244 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-10 16:55:02,166 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-10 16:55:04,061 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-04-10 16:55:04,061 - WARNING - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2025-04-10 16:55:04,061 - ERROR - Error while downloading data from GCP
+2025-04-10 16:55:04,061 - ERROR - CustomException : Error in /Users/preetyrai/RecommendationProject/src/data_ingestion.py , line 24 : Failed to download data
+2025-04-10 16:55:04,061 - INFO - Data Ingestion DONE...
+2025-04-10 17:02:15,686 - INFO - Succesfully read the YAML file
+2025-04-10 17:02:15,686 - INFO - Data Ingestion Started....
+2025-04-10 17:02:15,686 - INFO - Starting Data Ingestion Process....
+2025-04-10 17:02:18,689 - WARNING - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2025-04-10 17:02:22,795 - WARNING - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2025-04-10 17:02:24,663 - WARNING - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [Errno 64] Host is down
+2025-04-10 17:02:24,664 - WARNING - gcloud auth application-default login
+2025-04-10 17:02:24,664 - ERROR - Error while downloading data from GCP
+2025-04-10 17:02:24,664 - ERROR - CustomException : Error in /Users/preetyrai/RecommendationProject/src/data_ingestion.py , line 24 : Failed to download data
+2025-04-10 17:02:24,664 - INFO - Data Ingestion DONE...
+
+
