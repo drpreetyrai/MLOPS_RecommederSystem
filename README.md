@@ -26,6 +26,23 @@ pip install -e .
 ## use 
 
 ###  set GOOGLE_APPLICAT
-set GOOGLE_APPLICATION_CREDENTIALS=/Users/preetyrai/downloads/cohesive-poetry-456315-n6-4320ee04674c.json
-or 
+
+
 gcloud auth application-default login
+
+
+## DVC steps 
+dvc add artifacts/raw
+dvc add artifacts/processed/
+dvc add artifacts/model
+dvc add artifacts/model_checkpoint/
+dvc add artifacts/weights/
+
+
+
+
+
+
+
+
+
