@@ -133,6 +133,7 @@ kubectl version --client
 gcloud --version
 exit
 
+docker restart my-jenkins 
 
 --------------------------------------------------------- Give Docker PERMISSIONS -------------------------------------------
 
