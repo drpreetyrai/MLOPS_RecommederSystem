@@ -48,6 +48,21 @@ dvc push
 dvc pull
  
 
+## for docker 
+docker build -t jenkins-dind . 
 
+## for checking :- 
+ docker images
+
+## for running of container
+docker run -d --name jenkins-dind ^
+
+
+
+docker build -t jenkins-ml .
+docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-ml jenkins-ml
+docker run -d -p 8080:8080 -p 50000:50000 -v $(pwd)/ml_project:/home/jenkins/ml_project --name jenkins-ml jenkins-ml
+
+Access Jenkins at http://localhost:8080
 
 

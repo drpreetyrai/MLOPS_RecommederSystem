@@ -10,7 +10,7 @@ dvc-gs
 flask
 joblib
 matplotlib
-sklearn
+
 
 
 
