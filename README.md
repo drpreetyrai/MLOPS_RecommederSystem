@@ -110,3 +110,7 @@ checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs:
 googel cloud registry
 kubenetes engine api 
 kubernetes engine/clusters
+
+container registry 
+kubernetes engine 
+
