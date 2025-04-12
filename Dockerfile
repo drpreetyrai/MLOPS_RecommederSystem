@@ -34,3 +34,6 @@ EXPOSE 5000
 CMD ["python", "application.py"]
 
 
+
+
+
