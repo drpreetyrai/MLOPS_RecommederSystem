@@ -102,3 +102,6 @@ docker restart my-jenkins
 
 
 
+
+Jenkins Script 
+checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-token', url: 'https://github.com/drpreetyrai/MLOPS_RecommederSystem.git']])
