@@ -33,37 +33,37 @@ gcloud auth application-default login
 
 
 ## DVC steps 
-dvc add artifacts/raw
-dvc add artifacts/processed/
-dvc add artifacts/model
-dvc add artifacts/model_checkpoint/
+* dvc add artifacts/raw
+* dvc add artifacts/processed/
+* dvc add artifacts/model
+* dvc add artifacts/model_checkpoint/
 dvc add artifacts/weights/
 
 ## add to GCP Bucket 
-dvc remote add -d myremote gs://my-dvc-bucket-9999
+* dvc remote add -d myremote gs://my-dvc-bucket-9999
 
-dvc status 
+* dvc status 
 
-dvc push
-dvc pull
+* dvc push
+* dvc pull
  
 
 ## for docker 
-docker build -t jenkins-dind . 
+* docker build -t jenkins-dind . 
 
 ## for checking :- 
- docker images
+ * docker images
 
 ## for running of container
-docker run -d --name jenkins-dind ^
+* docker run -d --name jenkins-dind ^
 
 
 
-docker build -t jenkins-ml .
-docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-ml jenkins-ml
-docker run -d -p 8080:8080 -p 50000:50000 -v $(pwd)/ml_project:/home/jenkins/ml_project --name jenkins-ml jenkins-ml
+* docker build -t jenkins-ml .
+* docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-ml jenkins-ml
+* docker run -d -p 8080:8080 -p 50000:50000 -v $(pwd)/ml_project:/home/jenkins/ml_project --name jenkins-ml jenkins-ml
 
-Access Jenkins at http://localhost:8080
+### Access Jenkins at http://localhost:8080
 
 
 in cd custom-jenkins:
